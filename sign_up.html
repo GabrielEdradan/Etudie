@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign Up For Étudie</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="sign_up.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="index.html" id="logo-link"><img class="logo" src="images/inversed_logo.png" alt="Logo"></a>
+        <ul class="nav-links">
+            <li><a href="pricing.html">Pricing</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <a class="inv-btn" href="sign_up.html">Sign Up</a>
+    </nav>
+
+    <main>
+        <section class="sign-up-form">
+           
+            <form action="#">
+                <h1>Create your account</h1>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" required placeholder="Enter your email">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required placeholder="Enter your password">
+
+                <div class="checkbox-container">
+                    <input type="checkbox" id="terms" name="terms">
+                    <label for="terms">I accept the <a href="#">Terms of Use</a> & <a href="#">Privacy Policy</a></label>
+                </div>
+
+                <button type="submit" class="btn">Sign Up</button>
+
+                <div class="divider">
+                    <hr>
+                    <span>or</span>
+                    <hr>
+                </div>
+
+                <button class="btn">Sign in with Google</button>
+            
+                <p class="login-option">Already have an account? <a href="#">Log in here</a></p>
+            </form>
+        </section>
+    </main>
+    
+    <footer> 
+        <img class="logo" src="images/inversed_logo.png" alt="Logo">
+        <ul class="nav-links">
+            <li><p>&copy; 2024 Étudie Inc.</p></li>
+        </ul>
+    </footer>
+</body>
+</html>
